@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+		<title>格莱商城</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reg.css"/>
+	</head>
+	<body>
+		<!--头部-->
+			<header>
+				<div class="icon-logo logo"><a href="index.html"><span>格莱商城</span></a></div>
+				<div class="search">
+					<form method="post">
+						<h2>用户注册</h2>
+					</form>
+				</div>
+				<div class="icon-login login"><a href="login.html"><span>用户登录</span></a></div>
+			</header>
+		<div class="container">
+			<input type="text" id="username" placeholder="请输入用户名"/>
+			<input type="password" id="password" placeholder="请输入密码"/>
+			<input type="password" id="passwordAg" placeholder="请输入重复密码"/>
+			<input type="text" id="tel" placeholder="请输入手机号"/>
+			<button id="gettel">点击获取手机验证码</button>
+			<input type="text" id="telcode" placeholder="请输入手机验证码"/>
+			<input type="text" id="piccode" placeholder="请输入图片验证码"/>
+			<div id="v_container"></div>
+			<p>我有账户，点击<a href="login.html">登录</a></p>
+			<div id="tip"></div>
+		</div>
+		<!--底部-->
+			<footer>
+				<button id="reg">点击注册</button>
+			</footer>
+			<script src="js/url.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/identifying.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/reg.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
